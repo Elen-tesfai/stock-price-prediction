@@ -20,10 +20,10 @@ This project explores machine learning approaches to forecast the next day's clo
 1. **Data Loading & Cleaning** – Removed missing values, filtered relevant stock data (e.g., AAPL).
 2. **Feature Engineering** – Added lag features, 7-day and 30-day moving averages.
 3. **Model Training** – Trained Linear Regression, Support Vector Regression, Random Forest, and Gradient Boosting models.
-4. **Hyperparameter Tuning** – Used GridSearchCV to tune Random Forest.
-5. **Evaluation** – Used RMSE, MAE, R² metrics to compare model accuracy.
-6. **Forecasting** – Produced 7-day forecasts and evaluated predictions with real data.
-7. **Visualization** – Saved performance and forecast charts to `images/` folder.
+4. **Data Visualization** – Visualized AAPL stock closing prices over the past 5 years.
+5. **Prepare Data for Modeling** – Prepared the dataset by splitting features and target variable for model training.
+6. **Model Building** – Trained different models (Random Forest, Linear Regression, etc.) on historical data.
+7. **Model Evaluation** – Used RMSE, MAE, R² metrics to compare model accuracy.
 8. **Model Comparison and Selection** – Compared performance metrics and selected the best model.
 9. **Model Interpretation and Insights** – Analyzed feature importance from Random Forest model to interpret key drivers.
 10. **Model Validation and Robustness Checks** – Validated model predictions using cross-validation and robust checks.
@@ -94,6 +94,7 @@ Open and run the notebook `stock_forecasting.ipynb` to explore the data, model t
 
 ## 📁 Project Structure
 
+```text
 stock-price-prediction/
 │
 ├── data/
