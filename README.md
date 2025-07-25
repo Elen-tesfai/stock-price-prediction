@@ -70,9 +70,10 @@ The Random Forest model outperformed Linear Regression in terms of RMSE and MAE,
 ---
 
 ## 🖼 Key Visualizations
-
-<!--
+---
 **Visualization** – Saved performance and forecast charts to `images/` folder.
+
+Some key visualizations from the analysis:
 
 - 📉 **AAPL Closing Prices Over 5 Years**  
   ![AAPL Closing Prices](images/AAPL_closing_Over_5years_prices.png)
@@ -88,12 +89,7 @@ The Random Forest model outperformed Linear Regression in terms of RMSE and MAE,
 
 - 📈 **Forecast Evaluation**  
   ![Forecast Evaluation](images/forecast_eval.png)
--->
 
----
-
-
-Note: Please ensure that images are available in the `images/` folder. 
 
 ---
 
